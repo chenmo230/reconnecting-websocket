@@ -1,4 +1,4 @@
-import { CloseEvent, ErrorEvent, Event, WebSocketEventMap } from './events';
+import { CloseEvent, ErrorEvent, Event, WebSocketEventMap, MessageEvent } from './events';
 export declare type Options = {
     WebSocket?: any;
     maxReconnectionDelay?: number;

@@ -14,6 +14,11 @@ export declare class CloseEvent extends Event {
     wasClean: boolean;
     constructor(code: number | undefined, reason: string | undefined, target: any);
 }
+
+export interface MessageEvent {
+    [p: string]: any
+}
+
 export interface WebSocketEventMap {
     close: CloseEvent;
     error: ErrorEvent;

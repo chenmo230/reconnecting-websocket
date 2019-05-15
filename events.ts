@@ -17,6 +17,10 @@ export class ErrorEvent extends Event {
     }
 }
 
+export interface MessageEvent {
+    [p: string]: any
+}
+
 export class CloseEvent extends Event {
     public code: number;
     public reason: string;
